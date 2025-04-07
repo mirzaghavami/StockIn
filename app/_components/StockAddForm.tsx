@@ -48,7 +48,7 @@ const StockAddForm: FC<Props> = ({stock}) => {
                 </div>
             </CardContent>
             <CardFooter className="flex justify-between">
-                <Button variant="outline" onClick={onCancelAddStock}>Cancel</Button>
+                <Button type={'button'} variant="outline" onClick={onCancelAddStock}>Cancel</Button>
                 <Button>Add to Portfolio</Button>
             </CardFooter>
         </form>
