@@ -1,49 +1,92 @@
 
+# Stockin 📈
 
-## Objective
+[Visit Live App](https://stockin.vercel.app)
 
-Your task is to create a simple stock portfolio app using Typescript, Next.Js, and Supabase.
+Stockin is a simple, elegant stock portfolio tracker built using **Next.js**, **TypeScript**, and **Supabase**. It allows users to search for stock tickers, track real-time prices, and manage their portfolio — all wrapped in a clean, modern UI powered by **Shadcn UI**.
 
-## Brief
+This app was developed as a full-stack project to demonstrate my ability to build production-ready applications with modern technologies. It features server-side rendering, seamless database integration, and a beautiful, responsive user interface.
 
-The application should allow users to search for stock tickers, view their current price, add them to their portfolio, and view the total value of their portfolio. The app should leverage server-side rendering for the initial load of the portfolio. In terms of UI, you will be utilizing the Shadcn UI kit.
+---
 
-Here are the specific tasks:
+## ✨ Features
 
-1. **Setup Basic App Structure**
-    - Bootstrap a new Next.js app using Typescript.
-    - Setup Supabase client and connect it to your application.
-    - Integrate Shadcn UI kit into the app.
+- 🔍 **Stock Search** – Search for stocks using ticker symbols and view real-time price data.
+- 📊 **Portfolio Management** – Add stocks with the number of shares to your portfolio.
+- 💰 **Live Valuation** – Instantly see the total value of your portfolio based on current market prices.
+- ⚡ **Server-Side Rendering** – Optimized for fast initial load with server-side rendered portfolio data.
+- 💅 **Modern UI** – Clean and accessible design using the Shadcn UI kit.
 
-2. **Stock Search Functionality**
-    - Create a search bar that allows users to search for stocks by their ticker symbol.
-    - Display the current price of the stock returned from the search. For this, you can use the IEX Cloud API which is free and does not require registration.
+---
 
-3. **Portfolio Functionality**
-    - Create a Portfolio model in Supabase with the following fields: userId, stockTicker, numberOfShares.
-    - Add functionality to add a stock and the number of shares to the user's portfolio.
-    - Display a list of all the stocks in the user's portfolio, including the number of shares of each.
+## 🛠️ Tech Stack
 
-4. **Total Portfolio Value**
-    - Calculate the total value of the user's portfolio by summing the value of each stock in the portfolio (stock price * number of shares).
-    - Display the total portfolio value to the user.
+- [Next.js](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Supabase](https://supabase.com/)
 
-5. **Server-Side Rendering**
-    - Implement server-side rendering for the initial load of the portfolio. This means when a user navigates to their portfolio, the server should render the portfolio with all the stocks and the total value already populated.
+---
 
-### Evaluation Criteria
+## 🧠 Objective
 
-- Code quality and organization
-- Completion of the tasks
-- Correct implementation of server-side rendering
-- Proper usage of Supabase for data management
-- Integration of Shadcn UI kit
+Build a production-ready stock portfolio tracking app using TypeScript, Next.js, and Supabase.
 
-### CodeSubmit 
+---
 
-Please organize, design, and document your code as if it were going into production - then push your changes to the master branch.
+## 📋 Brief
 
-Have fun coding! 🚀
+The application allows users to:
 
-The Pillar Team
+1. **Search for Stock Tickers**
+    - Search for stocks by ticker symbol.
+    - View live stock prices using the IEX Cloud API.
 
+2. **Manage Portfolio**
+    - Store user portfolio data in Supabase (userId, stockTicker, numberOfShares).
+    - Add stocks and track number of shares.
+    - View a full list of stocks in the user's portfolio.
+
+3. **Display Total Value**
+    - Calculate and display the total portfolio value in real-time.
+
+4. **Server-Side Rendering**
+    - Render the portfolio page on the server with all relevant data on load.
+
+---
+
+## ✅ Evaluation Criteria
+
+- Clean, modular code architecture
+- Complete and functional feature set
+- Server-side rendering implementation
+- Supabase integration
+- Polished and responsive UI using Shadcn UI
+
+---
+
+## 🚀 Deployment
+
+The app is deployed on [Vercel](https://vercel.com/), and you can try it live here:  
+🔗 [https://stockin.vercel.app](https://stockin.vercel.app)
+
+---
+
+## 📦 Project Setup
+
+```bash
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+```
+
+---
+
+## 🧑‍💻 About Me
+
+This project was created to showcase my full-stack development skills, from backend integration to frontend design. I'm passionate about building practical tools with a great user experience and clean code.
+
+---
+
+Let me know if you'd like a shorter version or want to add your name, GitHub profile, or a contact section!
